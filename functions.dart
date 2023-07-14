@@ -45,7 +45,7 @@ void myfunction(){
     print("how old are you?");
     var age=stdin.readLineSync();
   print("my age is $age");
-return int.parse(age ?? "0");
+return int.parse(age ?? "0");//making it an intager
  
     
   }
